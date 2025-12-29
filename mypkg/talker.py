@@ -19,7 +19,7 @@ class DegreeTalker(Node):
         msg.age = self.deg
         self.pub.publish(msg)
         self.get_logger().info('送信角度: %d deg' % msg.age)
-        self.deg = (self.deg + 15) % 360
+        self.deg = (self.deg + 15) % 250
 
 def main():
     rclpy.init()
