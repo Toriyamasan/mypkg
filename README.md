@@ -2,7 +2,7 @@
 
 [![test](https://github.com/Toriyamasan/mypkg/actions/workflows/test.yml/badge.svg)](https://github.com/Toriyamasan/mypkg/actions/workflows/test.yml)
 
-角度(度数法)を送信し、受信側で弧度法(ラジアン)に変換して表示するROS 2パッケージです。
+角度（度数法）を送信し、受信側で弧度法（ラジアン）に変換して表示するROS 2パッケージです。
 
 ## ノードとトピックの機能
 
@@ -25,18 +25,18 @@
 ### ノードの起動
 2つのターミナルを使用して、それぞれのノードを起動します。
 
-**ターミナル1 (受信側):**
+**ターミナル1 （受信側）:**
 ```bash
 $ ros2 run mypkg listener
 ```
 
-**ターミナル2 (送信側):**
+**ターミナル2 （送信側）:**
 ```bash
 $ ros2 run mypkg talker
 ```
 
 ## 出力の例
-送信側(talker)が起動すると、受信側(listener)に以下のように変換結果が表示されます。
+送信側（talker）が起動すると、受信側（listener）に以下のように変換結果が表示されます。
 
 ```text
 [INFO] [listener]: 受信: 15 deg -> 変換後: 0.2618 rad
