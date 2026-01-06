@@ -38,7 +38,7 @@ $ ros2 run mypkg talker
 ## 出力の例
 送信側（talker）が起動すると、受信側（listener）に以下のように変換結果が表示されます。
 
-``` Plaintext
+```text
 [INFO] [listener]: 受信: 15 deg -> 変換後: 0.2618 rad
 [INFO] [listener]: 受信: 30 deg -> 変換後: 0.5236 rad
 ```
