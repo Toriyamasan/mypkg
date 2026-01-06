@@ -28,3 +28,12 @@
 **ターミナル1（受信側）:**
 ```bash
 $ ros2 run mypkg listener
+
+**ターミナル2（送信側）:**
+```bash
+$ ros2 run mypkg talker
+
+## 出力の例
+送信側（talker）が起動すると、受信側（listener）に以下のように変換結果が表示されます。
+
+
